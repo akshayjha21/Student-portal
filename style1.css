@@ -1,0 +1,49 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #B3C8CF;
+}
+
+.nav {
+    height: 100px;
+    background-color: rgb(41, 89, 132);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n-logo {
+    height: 40px
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: #FBF8DD;
+    margin: 100px;
+    box-shadow: 2px 2px 2px 2px rgb(124, 80, 80);
+
+}
+
+.items h1 {
+    font-size: 2rem;
+    font-family: "Teko", sans-serif;
+    color: #A34343;
+    font-stretch: expanded;
+
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-items :hover {
+    cursor: pointer;
+    transform: scale(1.09);
+}

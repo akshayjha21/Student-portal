@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #C0D6E8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 100px;
+    background-color: rgb(41, 89, 132);
+    width: 100%;
+    
+}
+.n-logo {
+    height: 40px
+}
+.bttn
+{
+    height: 30px;
+    width: 80px; 
+    margin-right: 60%;
+}
+.h-bttn
+{
+    background-color:rgba(246, 246, 246, 0.178);
+    height: 30px;
+    width: 80px;
+    color: #E7E9EB;
+    font-size: 1.1rem;  
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+}
+
+.events-sec
+{
+    padding-top: 5px;
+    height:75vh;
+    background-color: #E7E9EB;
+
+}
+.events-items
+{
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    background-color: #ffff;
+    margin-top: 5px;
+}
+.event{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.apply-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    background-color: rgba(26, 204, 32, 0.612);
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+.apply-box:hover
+{
+cursor: pointer;
+transform: scale(1.05);
+background-color: rgb(42, 202, 47);
+transition: all ease 0.3;
+
+}
+.title
+{
+    color: #111112;
+    padding-left: 50%;
+    font-size: 1.2rem;
+}
